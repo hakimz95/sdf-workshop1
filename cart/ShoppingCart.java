@@ -19,7 +19,7 @@ public class ShoppingCart {
             String[] terms = input.split(" ");
             String cmd = terms[0];
             
-            switch(cmd){
+            switch(cmd.toLowerCase()){
                 case "add":
                     String fruitsStr = terms[1];
                     String fruitsReplaced = fruitsStr.replace(",", " ");
